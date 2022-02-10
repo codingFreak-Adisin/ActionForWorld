@@ -509,14 +509,6 @@ section {
   background: #fff;
 }
 
-.services .box-container .box:hover {
-  background: #10221b;
-}
-
-.services .box-container .box:hover img {
-  -webkit-filter: invert(1);
-          filter: invert(1);
-}
 
 .services .box-container .box:hover p {
   color: #fff;
