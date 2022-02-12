@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+html {
+    font-size: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.9rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    z-index: 333;
+}
+
+.container {
+    width: 96%;
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.navbar h1 {
+    text-transform: uppercase;
+    color: #5b5963;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul a {
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: #5b5963;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.4 ease;
+}
+
+.navbar ul a:hover {
+    color: white;
+    background-color: #A7F432;
+}
+
+.hero {
+    max-width: 114rem;
+    height: 40rem;
+    background: url(../../blogs/images/blog-p-1.jpg) no-repeat center center / cover;
+    margin: 5rem auto;
+}
+
+main {
+    width: 100%;
+    max-width: 80rem;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin-top: -15rem;
+}
+
+main h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+main .profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+main .profile-container .profile {
+
+}
+
+main .profile-container .profile .img-container {
+    width: 6rem;
+    height: 6rem;
+    background: url(../../Action\ For\ World.png) no-repeat center center / cover;
+    border-radius: 50%;
+}
+
+main .profile-container .profile .text {
+    margin: 0 1rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
