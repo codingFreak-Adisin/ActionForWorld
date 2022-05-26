@@ -67,14 +67,15 @@ section {
 }
 
 #news-btn a {
-  background-color: #f8d0e9;
+  background-color: #A7F432;
   border-radius: 24px;
   transition: 0.2s;
 }
 
 #news-btn a:hover {
+  color: white;
   text-decoration: none;
-  background-color: #d5bfff;
+  background-color: black;
   border-radius: 24px;
 }
 
