@@ -249,7 +249,7 @@ section {
 
 .home .box .content h3 {
   font-size: 6rem;
-  color: #ffcd03;
+  color: #ffcd03; /*#ffcd03*/
   padding-top: .5rem;
   text-transform: uppercase;
 }
