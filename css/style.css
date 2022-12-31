@@ -125,6 +125,7 @@ section {
 
 .header #menu-btn {
   display: none;
+  color: #fff;
 }
 
 .search-form {
@@ -808,7 +809,7 @@ section {
     position: fixed;
     top: 0;
     left: -110%;
-    background: #fff;
+    background: #000;
     z-index: 10000;
     width: 35rem;
     height: 100%;
@@ -840,6 +841,7 @@ section {
     position: absolute;
     top: 1rem;
     right: 2rem;
+    color: #fff;
   }
   .swiper-button-next::after,
   .swiper-button-prev::after {

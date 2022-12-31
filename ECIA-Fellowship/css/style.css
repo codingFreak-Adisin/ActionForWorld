@@ -104,7 +104,7 @@ section {
 .header .navbar #nav-close {
   font-size: 5rem;
   cursor: pointer;
-  color: #10221b;
+  color: #fff;
   display: none;
 }
 
@@ -806,7 +806,7 @@ section {
     position: fixed;
     top: 0;
     left: -110%;
-    background: #fff;
+    background: #000;
     z-index: 10000;
     width: 35rem;
     height: 100%;
